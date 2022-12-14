@@ -20,25 +20,20 @@
 
 3.  .menu
     .menu__elem .elem
-    .elem__item
-    
+    .elem__item   
 ```
 
 Дочерние элементы в формате:
 ```
-
 .menu 
 .menu__item
 .menu__item-link
-
 ```
 Созависимые элементы можем создавать как:
 ```
-
 .menu1
 .menu1__elem1 .menu2
 .menu2__elem1
-
 ```
 
 Модификаторы пишем как:
@@ -47,33 +42,26 @@
 
 Блоки стилизуются следующим образом: 
 ```
-
 .menu
 .button .menu__button
-
 ```
 
 Все что не влияет на позиционирование:
 ```
-
 .button {
     color: #fff
 }
-
 ```
 
 Все что влияет на позиционирование:
 ```
-
 .menu__button {
     margin: 100px
 }
-
 ```
 
 Миксы:
 ```
-
 .menu {
     font-size: 12px
 }
@@ -85,12 +73,10 @@
 .text {
     font-size: 12px
 }
-
 ```
 
 Итоговый код с миксом:
-
-``.menu .text``
-
-``.header .text``
-
+```
+.menu .text
+.header .text
+```
